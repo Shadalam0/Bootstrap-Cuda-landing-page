@@ -1,0 +1,303 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+header {
+    background: #87509c;
+    
+}
+.nav {
+  background-color:#87509c ;
+  padding: 0px 40px 0px 40px;
+}
+.nav-link:hover {
+background-color: rgb(100, 58, 121);
+border-radius: 5px; 
+}
+.hero-btn {
+    background: #eb7d4b;
+    color:black;
+    
+  
+  padding: 14px 50px;
+  font-weight: 400;
+  margin-top: 50px;
+  
+}
+.hero-btn:hover {
+    box-shadow: 0px 5px 0px #c86a40;
+    color: white;
+  }
+  #services { 
+    background-color: rgb(23, 194, 164); 
+    
+    color: white;
+  
+  }
+  .heading {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    }
+  .underline {
+    border-top: 5px solid #888d91;
+    width: 8%;
+    margin: 15px auto;
+    }
+    #team { 
+        background-color:#e7f1f8; 
+        color: #3c4761;
+        text-align: center;
+        
+        }
+        .team-box img {
+            height: 170px;
+          }
+          .des {
+            font-size: 20px;
+            color: #48c1e9;
+            }
+          .team-icon {
+            margin-top: 20px;
+            }
+            .team-icon i {
+            font-size: 20px;
+            background-color: #bdd1df;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            width: 40px;
+            }
+            #skills { 
+                background-color: rgb(255, 255, 255); 
+                color: #3c4761; 
+                
+              }
+              .outer { 
+                height: 160px; 
+                width: 160px; 
+                border-radius: 50%; 
+                
+                box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 10px -1px, rgba(255, 255, 255, 0.7) -6px -6px 10px -1px; 
+                padding: 20px; 
+              }
+              .inner { 
+                height: 120px; 
+                width: 120px; 
+                border-radius: 50%; 
+                display: flex; 
+                align-items: center; 
+                
+                justify-content: center; 
+                box-shadow: rgba(0, 0, 0, 0.2) 4px 4px 6px -1px inset, rgba(255, 255, 255, 0.7) -4px -4px 6px -1px inset, rgb(255, 255, 255) -0.5px -0.5px 0px, rgba(255, 255, 255, 0.15) 0.5px 0.5px 0px, rgba(0, 0, 0, 0.5) 0px 12px 10px -10px; 
+              }
+              #number { 
+                color: rgb(85, 85, 85); 
+                font-size: 40px;
+              }
+              circle { 
+                fill: none; 
+                stroke: rgb(48, 186, 231); 
+                stroke-width: 20px; 
+                stroke-dasharray: 472; 
+                stroke-dashoffset: 472; 
+                animation: 2s linear 0s 1 normal forwards running shad-1; 
+                
+              }
+              svg { 
+                position: relative;
+                right:50px;
+                bottom: 
+                160px;
+              }
+              @keyframes shad-1 { 
+              100% { stroke-dashoffset: 90; }
+              }
+              #box-2 { 
+                fill: none; 
+                stroke: rgb(215, 70, 128); 
+                stroke-width: 20px; 
+                stroke-dasharray: 472; 
+                
+                stroke-dashoffset: 472; 
+                animation: 2s linear 0s 1 normal forwards running shad-2; 
+              }
+              @keyframes shad-2 { 
+              100% { stroke-dashoffset: 118; }
+              }
+              #box-3 { 
+                fill: none; 
+                stroke: rgb(21, 199, 168); 
+                stroke-width: 20px; 
+                stroke-dasharray: 472; 
+                stroke-dashoffset: 472; 
+                animation: 2s linear 0s 1 normal forwards running shad-3; 
+              
+              }
+              @keyframes shad-3 { 
+              100% { stroke-dashoffset: 141; }
+              }
+              #box-4 { 
+                fill: none; 
+                stroke: rgb(235, 125, 75); 
+                stroke-width: 20px; 
+                stroke-dasharray: 472; 
+                stroke-dashoffset: 472; 
+                animation: 2s linear 0s 1 normal forwards running shad-4; 
+              }
+              @keyframes shad-4 { 
+              100% { stroke-dashoffset: 165; }
+              }
+              #portfolio { 
+                background-color: rgb(255, 221, 153); 
+                color: #3c4761; 
+                text-align: center; 
+              }
+              .skills-box h3 {
+
+              }
+              .prot-btn a {
+                background-color: rgb(235, 201, 133); 
+                color: rgb(116, 105, 82); 
+                border: none;
+              }
+              .prot-btn a:hover {
+                background-color: rgb(255, 255, 255); color: black; 
+              }
+            .more-bnt a {
+              background-color: rgb(23, 194, 164);
+  color: rgb(0, 0, 0);
+  border: none;
+  
+            }
+            .more-bnt a:hover {
+              box-shadow: rgb(20, 165, 140) 0px 5px 0px; 
+              background-color: rgb(23, 194, 164); 
+              color: white; 
+            }
+            #about-us { 
+              background-color: rgb(215, 70, 128); 
+              color: white;
+               
+            }
+            .about-box-part { 
+              border: none; 
+              color: white; 
+            }
+          
+            .about-box-part h3 { 
+           color: rgb(255, 221, 153); 
+            }
+            #massage { 
+              background-color: rgb(60, 84, 153); 
+              text-align: center; 
+              color: white;
+            }
+            .placeholder1 {
+               
+               
+              margin-top: 50px;
+              }
+            .form1-part {
+            
+            position: relative;
+            text-align:right;
+              width: 50%;
+              float: left;
+              right: 10px;
+              
+            
+            }
+            .form1-part input[type="text"] {
+              width: 68%;
+              background: #273a71;
+              padding: 10px;
+              font-size: 17px;
+              
+              color: white;
+            }
+            
+            .form2-part {
+              text-align: left;
+              width: 50%;
+              float: left;
+              position: relative;
+              left: 1px;
+              
+    
+            }
+            .placeholder2 {
+              
+              }
+            .form2-part input[type="email"] {
+              width: 68%;
+              background: #273a71;
+              padding: 10px;
+              font-size: 17px;
+              margin-left: 10px;
+              color: white;
+            }
+            
+            .placeholder2 textarea {
+              width: 70%;
+              background: #273a71;
+              padding: 10px;
+              font-size: 17px;
+              color: white;
+              margin-top: 10px;
+            }
+            
+            
+            
+            input[type="submit"] {
+              background-color: rgb(48, 186, 231);
+              color: rgb(0, 0, 0);
+              padding: 15px 80px;
+              border: none;
+              border-radius: 5px;
+              margin-top: 50px;
+              
+              text-transform: uppercase;
+            }
+             input[type="submit"]:hover { 
+              box-shadow: rgb(41, 158, 197) 0px 5px 0px; 
+              border-radius: 3px; 
+              color: white; 
+            }
+            input::placeholder, textarea::placeholder {
+              color: white;
+            }
+
+            footer {
+              background-color: #344b8e;
+            text-align: center;
+            }
+            footer ul {
+            
+            padding-bottom: 10px;
+            padding-top: 35px;
+            }
+            footer ul li {
+            
+            display: inline-block;
+            
+            padding: 0px 18px;
+            }
+            footer li a {
+            
+            color: white;
+            
+            text-decoration: none;
+            
+            font-size: 18px;
+            
+            font-weight: 700;
+            }
+            footer li a:hover {
+              color: #30bae7;
+            }
+            .copy {
+              font-size: 15px;
+              text-align: justify;
+            }
